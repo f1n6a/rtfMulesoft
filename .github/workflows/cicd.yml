@@ -132,4 +132,4 @@ jobs:
       env:
         AUTHOR: "Mr Developer"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-fingani-unified" -Dapp.inbound.url="auto-fingani-unified.mulesoft-training.com/*" -Ddeployment.target="rtf-fingani-001"
+        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-fingani-unified" -Dapp.inbound.url="http://auto-fingani-unified.mulesoft-training.com/*" -Ddeployment.target="rtf-fingani-001"
