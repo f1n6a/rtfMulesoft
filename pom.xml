@@ -5,7 +5,7 @@
 	<!-- Change the group ID with the class group -->
     <groupId>b31ea7a0-43d7-4925-9b94-39285a17dddd</groupId>
     <artifactId>fingani-rtf-unified-app</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
     <packaging>mule-application</packaging>
     <name>fingani-rtf-unified-app</name>
 
